@@ -1,0 +1,104 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+h1, h2,h3, h5, h6{
+    margin: 0;
+    color: brown;
+}
+
+
+header h2{
+    text-shadow: rgb(12,4,3,0.8);
+}
+
+h2{
+    text-align: center;
+    font-weight: bold;
+}
+
+html body .container {
+    position: relative;
+    background-color:burlywood;
+    padding: 15px 30px;
+    margin-right: auto;
+    margin-left: auto;
+    min-height: calc(100vh - 2 * 15px);
+}
+
+span.text-green{
+    color: chartreuse;
+}
+
+tr:nth-last-child(2) td:nth-child(2){
+    color: red;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    background: whitesmoke;
+    border-radius: 18px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    margin :0 15rem;
+    padding: 3rem 1.5rem; 
+}
+
+
+nav a {
+    text-decoration: none;  
+}
+
+
+
+#nav {
+    list-style: none;
+}
+
+#nav .nav-item {
+    border-radius: 18px;
+    margin: 1.5em 0;
+    border: 4px solid teal;
+    background-color: rgba(71, 94, 71,0.3); 
+    box-shadow: 0 3px 6px rgba(0,0,0,1);
+}
+
+#nav .nav-item .link-nav {
+    display: block;
+    padding: 1.5em 0.8em;
+    text-align: center;
+    color: #475e47;
+    font-weight: 700;
+    font-size: large;
+}
+
+#nav .nav-item .link-nav:hover, #nav .nav-item .link-nav:focus{
+    transition: 0.8s;
+    color: #c7cec7;
+}
+
+#nav .nav-item:hover, #nav .nav-item:focus{
+    transition: 0.8s;
+    background-color: rgba(71, 94, 71,1); 
+}
+
+
+.grid{
+    display: grid;
+    grid-auto-columns: auto auto;
+}
+
+.grid .all-col{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.grid .one-col{
+    grid-column: 1 / 2;
+    grid-row: 2;
+}
+
+.grid .two-col{
+    grid-column: 2 / 2;
+    grid-row: 2;
+}

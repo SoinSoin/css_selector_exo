@@ -1,0 +1,74 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding:1em;
+}
+
+section:nth-child(-n+5){
+    border-bottom: 2px solid black;
+}
+.container{
+    min-height: 100vh;
+    margin: 0 15px;
+    padding:30px 15px;
+}
+
+
+table, td {
+    border: 1px solid #333;
+}
+
+tr:nth-child(1) td:nth-child(-n+4){
+background-color: greenyellow;
+}
+
+tr:nth-child(2n+2) td:nth-child(-n+4){
+    background-color: yellow;
+}
+
+tr:nth-child(n+1) td:nth-child(n+5){
+    background-color: aqua;
+}
+
+tr:nth-child(n+1) td:nth-child(n+5):hover{
+    background-color: red;
+}
+
+
+/* tr:nth-child(3) td:nth-child(n+5){
+    background-color: red;
+} */
+
+.container section:nth-child(2) ul li:nth-child(2n+2){
+    color: red;
+}
+
+
+.container section:nth-child(3) ul li:nth-child(-1n+5){
+    color: red;
+}
+
+.container section:nth-child(4) ul li:nth-child(n+5){
+    color: red;
+} 
+
+input[type="text"]:focus{
+ background-color: yellow;   
+}
+
+input:last-child:hover{
+    background-color: blue;
+}
+
+.border-round{
+    border-radius: 24px;
+    background-color:blue;
+    color: white;
+}

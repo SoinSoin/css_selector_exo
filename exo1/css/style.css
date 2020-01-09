@@ -1,0 +1,30 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+h1, h2,h3, h5, h6{
+    margin: 0;
+    color: brown;
+}
+
+h2{
+    text-align: center;
+    font-weight: bold;
+}
+
+html body .container {
+    position: relative;
+    background-color:burlywood;
+    padding: 15px 30px;
+    margin-right: auto;
+    margin-left: auto;
+    min-height: calc(100vh - 2 * 15px);
+}
+
+span.text-green{
+    color: chartreuse;
+}
+
+tr:nth-last-child(2) td:nth-child(2){
+    color: red;
+}
